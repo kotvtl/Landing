@@ -18,6 +18,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="index.html" aria-label="Roast&Co — на главную">
+      <svg class="logo__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 8h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Z"/>
+        <path d="M16 9h1.5a2.5 2.5 0 0 1 0 5H16"/>
+        <path d="M7 3.5c0 .8-.8 1.2-.8 2M11 3.5c0 .8-.8 1.2-.8 2"/>
+      </svg>
+      <span class="logo__text">Roast&amp;Co</span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#about">О нас</a></li>
+        <li><a class="nav__link" href="#menu">Меню</a></li>
+        <li><a class="nav__link" href="#gallery">Галерея</a></li>
+        <li><a class="nav__link" href="#contacts">Контакты</a></li>
+        <li><a class="nav__link" href="catalog.html">Каталог</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Переключить тему">
+      <span class="theme-toggle__icon" aria-hidden="true">☀</span>
+      <span class="theme-toggle__icon" aria-hidden="true">☾</span>
+      <span class="theme-toggle__thumb" aria-hidden="true"></span>
+    </button>
+    <button class="burger" type="button" aria-label="Открыть меню"
+            aria-expanded="false" aria-controls="mobile-menu" data-burger>
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
     
 </body>
 </html>
